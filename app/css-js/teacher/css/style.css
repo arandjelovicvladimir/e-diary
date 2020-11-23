@@ -1,0 +1,533 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	font-family: 'Roboto', Arial, sans-serif;
+	color:#363636;
+	font-weight:300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:900;
+	margin:1em 0 0.5em;
+}
+
+h1 { font-size:3em;}
+h2 { font-size:2.2em;}
+h3 { font-size:2em;}
+h4 { font-size:1.6em;}
+h5 { font-size:1.4em;}
+h6 { font-size:1.2em;}
+
+p {
+	margin:0.3em 0 0.5em;
+}
+
+img {
+	vertical-align:bottom;
+	max-width:100%;
+}
+
+a:link,
+a:visited {
+	text-decoration:none;
+	color:#696969;
+}
+a:hover {
+	color:#FFFFFF;
+}
+a:active {
+	color:#696969;
+}
+
+.wrapper{
+	margin: 0 auto;
+	color: #5F5E5E;
+	overflow:hidden;
+	width: 1350px;
+	text-align: center;
+}
+
+#teachers .student{
+	text-transform: capitalize;
+}
+#teachers h1{
+	color:#000;
+}
+#teachers .name_student{
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+}
+#teachers .table th{
+	border:none;
+}
+#teachers .table td{
+	border:none;
+}
+#teachers a:link,
+#teachers a:visited{
+	text-decoration:none;
+	color:#FFF;
+}
+#teachers a:hover{
+	color:#000;
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+	margin-top:5px;
+	font-size:18px;
+}
+#table td, th{
+	border:1px solid #000;
+	text-align:left;
+	padding:8px;
+	width:70px;
+}
+#table th{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	height: 200px;
+	padding: 0px;
+	text-align: center;
+}
+  
+#table tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+}
+
+#table table tr th::first-letter{
+	text-transform: uppercase;
+}
+#table p{
+	color:#000;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+/* #table a:link,
+#table a:visited{
+	text-decoration:none;
+	color: #000;
+	font-weight: 700;
+	text-align: center;
+}
+#table a:hover{
+	color:#AE3D00;
+}
+#table a:active{
+	color:#CC2A00;
+} */
+#table input{
+	padding: 5px;
+	margin:5px;
+	border: 1px solid #000;
+	color: #fff;
+	background-color:rgba(0,0,0, 0.5);
+}
+#table input:hover{
+	background: #000;
+	border:1px solid #000;
+	margin:5px;
+}
+#table input:active{
+	background:rgba(0,0,0, 0.5);
+	border-collapse: #000;
+}
+#table table .final_grade{
+	font-size: 40px;
+	text-align: center;
+	color: #000;
+}
+#objects table th{
+	font-size:34px;
+	text-align:center;
+	color:#000;
+	text-transform:uppercase;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+}
+#objects td, th{
+	border:1px solid #000;
+	text-align:left;
+	padding:8px;
+	width:70px;
+}
+#objects th{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	height: 200px;
+	padding: 0px;
+	text-align: center;
+}
+  
+#objects tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+}
+/* #table td, th{
+	border:1px solid #000;
+	text-align:left;
+	padding:8px;
+	width:70px;
+}
+#table th{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	height: 200px;
+	padding: 0px;
+	text-align: center;
+}
+  
+#table tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+}
+#table td, th{
+	border:1px solid #000;
+	text-align:left;
+	padding:8px;
+	width:70px;
+}
+#table th{
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	height: 200px;
+	padding: 0px;
+	text-align: center;
+}
+  
+#table tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+} */
+#objects table td{
+	 text-align:center;
+	 border:none;
+	 font-size:24px;
+ }
+ #objects table tr td::first-letter{
+	text-transform: uppercase;
+	
+ }
+#objects table tr:last-child {
+	border-bottom: 1px solid #000;
+  }
+#objects th{
+	transform:none;
+	-webkit-transform:none;
+	height:50px;
+	padding: 5px 0;
+}
+#messagee #sendMessage {
+	width: 665px;
+	padding-right:5px;
+	float: left;
+	margin-top: 5px;
+	clear: both;
+}
+#messagee #scroll{
+	clear: both;
+	text-align: center;
+	border-top:1px solid #000;
+	height: 450px;
+	padding-right: 10px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#scroll::-webkit-scrollbar{
+	width:8px;
+	background: #FFF;
+}
+#scroll::-webkit-scrollbar-track{
+	background: #FFF;
+	border-radius: 20px;
+}
+#scroll::-webkit-scrollbar-thumb{
+	background:rgba(0, 0, 0, 0.80);
+	border-radius:20px;
+}
+#scroll::-webkit-scrollbar-thumb:hover{
+	background:rgba(0, 0, 0, 0.60);
+}
+
+.container {
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: left;
+	margin-top:5px;
+	margin-bottom: 5px;
+  }
+.container p{
+	color:#000;
+} 
+.darker {
+	border-color: #ccc;
+	background-color: #ddd;
+	text-align: right;
+  }
+  
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.time-right{
+	float: right;
+	color: #000;
+  }
+  
+.time-left{
+	float: left;
+	color: #000;
+}
+#messagee #chat{
+	margin-top:10px;
+	width: 670px;
+}
+#messagee #subject{
+	width: 660px;
+	height: 150px;
+	float:left;
+	resize: none;
+}
+#messagee #sendMessage #chat button{
+	font-size: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+
+	float:left;
+}
+#listUsers{
+	float: right;
+	width: 665px;
+	padding: 3px;
+	border:1px solid #000;
+	margin-top:5px;
+	height: 500px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#listUsers::-webkit-scrollbar{
+	width:8px;
+	background: #FFF;
+}
+#listUsers::-webkit-scrollbar-track{
+	background: #FFF;
+	border-radius: 20px;
+}
+#listUsers::-webkit-scrollbar-thumb{
+	background:rgba(0, 0, 0, 0.80);
+	border-radius:20px;
+}
+#listUsers::-webkit-scrollbar-thumb:hover{
+	background:rgba(0, 0, 0, 0.60);
+}
+#listUsers ul{
+	list-style: none;
+	margin: 5px;
+	padding: 0;
+	font-size: 22px;
+	text-align: left;
+}
+#listUsers ul li{
+	border-bottom: 1px solid black;
+	padding-top: 5px;
+	text-transform: capitalize;
+}
+#listUsers ul li:hover{
+	padding: 8px;
+	border: 1px solid #000;
+	border-top:none;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+#listUsers ul li:hover:first-child{
+	border-top:1px solid #000;
+}
+#listUsers a:link,
+#listUsers a:visited {
+	text-decoration:none;
+	color:#000;
+}
+#listUsers a:hover {
+	color:rgba(0, 0, 0, 0.60);
+	font-weight: 700;
+	padding: 8px 0;
+}
+#listUsers a:active {
+	color:#515c13;
+	margin: 5px;
+}
+#addGrade form{
+	width: 930px;
+	margin: 0 auto;
+}
+#addGrade form table{
+	font-size: 18px;
+	border-top:1px solid #000;
+}
+#addGrade tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+}
+#addGrade tr, td{
+	border:none;
+	text-align:left;
+	padding:10px 5px;
+}
+#addGrade table td input{
+	padding: 8px 5px;
+	border:1px solid #000;
+	font-weight:bold;
+	text-transform: capitalize;
+}
+#addGrade table #grade select{
+	padding: 5px 10px;
+	border:1px solid #000;	
+	font-weight:bold;
+}
+#addGrade table #list_subjects select{
+	font-weight:700;
+	text-transform: uppercase;
+}
+#addGrade table #list_subjects select option{
+	font-weight:700;
+}
+#addGrade .tdSubmit{
+	padding: 10px 0;
+	color: #FFF;
+	font-weight:300;
+}
+#addGrade .tdSubmit input{
+	padding: 5px 15px;
+	background: rgba(0, 0, 0, 0.45);
+	font-size: 26px;
+}
+#addGrade .tdSubmit input:hover{
+	background: #FFF;
+	font-size: 26px;
+	border-radius: 25px;
+}
+#addGrade .tdSubmit input:active{
+	background: #FFF;
+	border: 1px solid #000;
+	font-size: 28px;
+}
+#addGrade #list_subjects select{
+	padding: 8px 15px 8px 0;
+	border:1px solid #000;
+}
+#table_schedule table th, td{
+	border:1px solid #000;
+	padding:8px;
+	width:70px;
+	border:none;
+}
+#table_schedule table tr td:nth-child(1){
+	font-weight: bold;
+	color: #000;
+}
+#table_schedule table th{
+	color:black;
+	font-weight: bold;
+}
+#table_schedule tr:nth-child(even){
+	background-color:rgba(0, 0, 0, 0.45);
+	color:#FFF;
+}
+#footer{
+	background-color: #000;
+	margin-top: 10px;
+	color:#FFF;
+}
+#footer .wrapper h3,p,img{
+	color: #FFF;
+	margin: 0;
+}
+
+#footer .wrapper .textFooter{
+	float: left;
+	width: 500px;
+	text-align: left;
+	margin: 25px;
+}
+#footer .wrapper .logoFooter{
+	float: right;
+	width: 150px;
+	margin: 25px;
+}
+#footer .wrapper .copy{
+	border-top: 1px solid #FFF;
+	clear: both;
+	text-align: left;
+}
+#footer .button {
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #000;
+	background:#000;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 15px 35px;
+	margin:0 0 20px 0;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+	float:right;
+}
+#footer .button:hover {
+	background:#FFF;
+	color:#000;
+}
+#footer .button:active {
+	background:#4C4C4C;
+	color:#FFF;
+	font-weight: 700;
+	border: 1px solid #000;
+	padding: 20px 40px;
+	text-align: center;
+}
+#footer a:link,
+#footer a:visited {
+	text-decoration:none;
+	color:#FFF;
+}
+#footer a:hover {
+	color:#000;
+}
+#footer a:active {
+	color: #000;
+}
+
+.scheduleTeacher tr td{ 
+	text-align: left;
+	font-size: 23px;
+}
+
+.scheduleTeacher tr th{ 
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.open_table_prof tr td{
+    text-align:center;
+}
+.open_table_prof tr th{
+    text-align:center;
+}
+
+.open_confirm_prof{
+    background-color: rgb(155, 252, 159);
+}
+
+.open_reject_prof{
+    background-color: rgb(252, 180, 180);
+}

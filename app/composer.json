@@ -1,0 +1,14 @@
+{
+    "name": "grupa1/task1",
+    "authors": [
+        {
+            "name": "aleksandar markovic",
+            "email": "aleksandarmarkoviccrni@gmail.com"
+        }
+    ],
+    "require": {
+        "rospdf/pdf-php": "^0.12.55",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.9"
+    }
+}
